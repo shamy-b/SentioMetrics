@@ -62,9 +62,17 @@ The modern digital landscape has fundamentally shifted adolescent behavior, with
   1.  **Classification Metrics:** Generate a Classification Report containing Precision, Recall, F1-Score, and overall Accuracy. Focus heavily on **Recall** (we don't want to miss a depressed teen/false negative).
   2.  **Confusion Matrix:** Visualize True Positives, True Negatives, False Positives, and False Negatives.
   3.  **ROC-AUC Curve:** Plot the Receiver Operating Characteristic curve to measure the model's ability to distinguish between classes.
-  4.  **SHAP Analysis:** Generate SHAP (SHapley Additive exPlanations) summary plots. This will explicitly show how much every single feature (e.g., `stress_level`, `platform_usage`) contributed to pushing a prediction towards or away from the `depression_label`.
+  4.  **SHAP Analysis:** Generate SHAP (SHapley Additive exPlanations) summary plots.
+  5.  **Tipping Point Analysis:** Use SHAP dependence plots to identify the "threshold" where social media hours significantly increase mental health risks.
 
-### Phase 6: Final Reporting & Consolidation
+### Phase 6: Practical Risk Assessment Tool
+- **Objective:** Bridge the gap between data science and real-world application.
+- **Tasks:**
+  1.  Develop a Python-based **Risk Calculator** function that takes real-time user inputs.
+  2.  Implement probability-based recommendations (e.g., Clinical Referral vs. Lifestyle Adjustment).
+  3.  Validate the tool against simulated cases to ensure reliability.
+
+### Phase 7: Final Reporting & Consolidation
 
 - **Objective:** Package the findings into a professional format.
 - **Tasks:**
