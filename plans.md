@@ -72,7 +72,14 @@ The modern digital landscape has fundamentally shifted adolescent behavior, with
   2.  Implement probability-based recommendations (e.g., Clinical Referral vs. Lifestyle Adjustment).
   3.  Validate the tool against simulated cases to ensure reliability.
 
-### Phase 7: Final Reporting & Consolidation
+### Phase 7: Web Application Deployment
+- **Objective:** Create a user-facing dashboard for real-time risk assessment.
+- **Tasks:**
+  1.  Develop `app.py` using Streamlit.
+  2.  Integrated custom CSS for a premium UI/UX.
+  3.  Implement model loading and feature mapping for seamless inference.
+
+### Phase 8: Final Reporting & Consolidation
 
 - **Objective:** Package the findings into a professional format.
 - **Tasks:**
