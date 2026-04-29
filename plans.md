@@ -5,7 +5,7 @@
 **Why are we doing this project?**
 The modern digital landscape has fundamentally shifted adolescent behavior, with social media platforms like TikTok and Instagram becoming central to daily life. Concurrently, there has been a significant rise in reported teen mental health issues, including anxiety, stress, and depression. The motivation behind this project is to mathematically and empirically analyze this relationship. Instead of relying on anecdotes, we will use data science to uncover hidden patterns and identify the exact digital behaviors that correlate most strongly with mental health decline.
 
-**What are we trying to achieve?**
+**What am I trying to achieve?**
 
 1.  **Actionable Insights:** Generate a comprehensive Exploratory Data Analysis (EDA) report that visually maps how factors like `platform_usage`, `daily_social_media_hours`, and `sleep_hours` impact mental health metrics (`stress_level`, `anxiety_level`, `addiction_level`).
 2.  **Predictive Capability:** Build a highly accurate, robust machine learning classification model (specifically a tree-based ensemble like XGBoost or Random Forest) capable of predicting a teenager's `depression_label` (Risk vs. No Risk) based on their demographic and behavioral data.
